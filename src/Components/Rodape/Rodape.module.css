@@ -1,0 +1,18 @@
+.rodape{
+    background-color: black;
+    color: white;
+    
+    text-align: center;
+    font-size: 13px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 17px 23px
+}
+
+@media (max-width:300px){
+    .rodape{
+        width: 350px;
+    }
+}

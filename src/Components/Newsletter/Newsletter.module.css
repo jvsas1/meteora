@@ -1,0 +1,203 @@
+.container{
+    border: 2px solid #000;
+   display: grid;
+   justify-content: center;
+   text-align: center;
+   padding: 4em;
+}
+
+.card {
+    padding: 4em;
+    border: 2px solid #000;
+    display: grid;
+    gap: 25px;
+    font-family: Inter;
+}
+
+.titulo{
+    font-size: 20px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 697px;
+}
+
+.input_text{
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    width: 422px;
+}
+
+.botao{
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.457px;
+    color: white;
+    background-color: blueviolet;
+    width: 84px;
+    height: 38px;
+    border: 1px solid #9353FF;
+} 
+
+.nav_modal{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 0.8em;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.nav_modal p{
+    font-size: 20px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 590px;
+
+}
+
+.modal_msg{
+    padding: 2em;
+    background-color: white;
+    border: solid thin;
+}
+.modal_msg p{
+    font-size: 16px;
+font-family: Inter;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+
+
+}
+
+
+
+@media (min-width:700px){
+    .container_modal{
+        width: 400px;
+    }
+
+    
+
+    .titulo{
+        font-size: 16px;
+        
+    }
+    
+    .input_text{
+        
+        width: 200px;
+    }
+    
+ 
+
+}
+
+@media (max-width: 699px){
+    .container_modal{
+        width: 500px;
+    }
+}
+
+@media (max-width:860px){  
+
+   
+
+    .card{
+        width: 500px;
+    }
+
+    .titulo{
+       
+        width: 300px;
+    }
+    
+    .input_text{
+        
+        width: 200px;
+    }
+
+}
+
+@media (max-width:640px){
+    .container_modal{
+        width: 500px;
+    }
+}
+
+@media (max-width:420px){
+    .container_modal{
+        width: 300px;
+    }
+}
+
+
+
+@media (max-width:525px){ 
+    .container_modal{
+        width: 400px;
+    }
+
+    .container{
+        gap: 15px; 
+
+    }
+
+    .card{
+       width: 360px;
+    } 
+
+    .titulo{
+       
+        width: 240px;
+    }
+    
+    .input_text{
+        
+        width: 200px;
+    }
+
+
+}
+
+@media (max-width:395px){
+    .container_modal{
+        width: 320px;
+    }
+}
+
+
+@media (max-width:300px){
+    .container_modal{
+        width: 250px;
+    }
+.container{
+    width: 350px;
+}
+
+.card{
+    width: 310px;
+    padding: 3em;
+    
+}
+
+.titulo{
+    width: 220px;
+
+}
+
+
+    
+}

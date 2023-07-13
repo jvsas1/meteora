@@ -1,0 +1,188 @@
+.background_nav{
+    background-color: black;
+ 
+
+}
+
+.nav{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1em;
+   
+   
+    
+   
+}
+
+
+.links_nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Inter;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    line-height: 23px;
+}
+
+.buscar_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  
+}
+
+.input_produto{
+    width: 180px;
+height: 38px;
+font-family: inter;
+padding: 15px;
+}
+
+.buscar{
+    padding: 9px 12px;
+    color: white;
+    background-color: black;
+    border: solid;
+    border-width: thin;
+  
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 0.457px;
+} 
+
+.selector_menu{
+    display: none;
+}
+
+
+.nav_mobile{
+    display: none;
+}
+
+
+
+@media (max-width:780px){
+    .buscar{
+
+    }
+.nav{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    gap: 10px;
+} 
+
+.links_nav{
+
+}
+}
+
+
+
+
+@media (max-width:820px){
+    .nav{
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        font-size: 13px;
+    }
+    .links_nav{
+        margin-right: 100px;
+    }
+
+    
+   
+}
+
+@media (max-width:750px){
+
+  .links_nav{
+    margin-right: 150px;
+  } 
+}
+
+
+@media (max-width:690px){
+
+    .buscar_container{
+        margin-right: 40px;
+    }
+
+  }
+  
+
+
+@media (max-width:650px){ 
+
+  
+    .nav{
+        display: none;
+     
+        
+    }
+
+    .links_nav{
+        
+        gap: 1px;
+    
+    } 
+
+    .selector_menu{
+        display: flex;
+    }
+    
+    .nav_mobile{
+        display: grid;
+    }
+    
+    .up_nav{
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .search_mobile{
+        background-color: white;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    
+
+   .input_produto{
+    width: 200px;
+   }
+
+   
+
+}
+
+@media (max-width:650px){ 
+
+    .buscar{
+        margin-left: 150px;
+    }
+  }
+
+
+@media (max-width:350px){ 
+
+  .background_nav{
+    width: 350px;
+  }
+  .search_mobile{
+    display: grid;
+    gap: 10px;
+  }
+}

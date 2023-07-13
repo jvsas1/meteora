@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+.carousel_tablet{
+    display: none;
+}
+
+.carousel_mobile{
+    display: none;
+}
+
+.banner_container{
+ min-width: 100%;
+ display: block;
+ height: auto;
+
+
+}
+.banner{
+    width: 100%;
+    transition: 0.8s;
+   
+} 
+
+
+
+.swiper{
+    height: 80vh;
+} 
+
+.slide{
+    margin: 10px;
+}
+
+.slide img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.carousel a{
+    z-index: 0;
+}
+
+
+
+
+@media (max-width:800px){ 
+
+    .banner1_tablet{
+        
+        width: 100%;
+    
+        }
+    
+        .banner2_tablet{
+            
+            width: 100%;
+        
+            }
+    
+            .banner3_tablet{
+            
+                width: 100%;
+            
+                }
+
+    .carousel{
+        display: none;
+    }
+
+    .carousel_tablet{
+        display: block;
+    }
+}
+
+@media (max-width:580px){
+  
+
+    .banner1_mobile{
+        
+    width: 100%;
+
+    }
+
+    .banner2_mobile{
+        
+        width: 100%;
+    
+        }
+
+        .banner3_mobile{
+        
+            width: 100%;
+        
+            }
+        .carousel-control-next{
+            margin-right: 2em;
+        }
+    .carousel{
+        display: none;
+    }
+
+    .carousel_tablet{
+        display: none;
+    }
+
+    .carousel_mobile{
+        display: block;
+    }
+} 
+
+
+@media (max-width:350px){
+    .carousel_mobile{
+        display: block;
+        width: 350px;
+    }
+}
